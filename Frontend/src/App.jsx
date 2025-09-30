@@ -34,6 +34,7 @@ const App = () => {
           <Route path="/my-profile" element={<MyProfile />}></Route>
           <Route path="/my-appointments" element={<MyAppointments />}></Route>
           <Route path="/appointment/:docId" element={<Appointment />}></Route>
+          <Route path="/appo" element={<Appointment />}></Route>
           <Route path="*" element={<div>Not found</div>} />
         </Routes>
         <Footer />
